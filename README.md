@@ -1,1 +1,1 @@
-# Stock-Analysis
+# Stock-Analysis of Major Technology Stocks
