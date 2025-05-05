@@ -2,7 +2,7 @@
 
 ## 📋 Table of Contents
 
--[Summary & Hypotheses](#introduction)
+- [Summary & Hypotheses](#introduction)
 
 ## Introduction
 
