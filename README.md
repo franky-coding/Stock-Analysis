@@ -10,7 +10,7 @@ or
 
 - git clone the repository and run the analysis in your local code editor
 
-Disclosure: The Y-finance API is a timeseries dataset, and I specified within my code that I will be analyzing data from now (5/5/2025) to one year ago so depending on when you clone or run the notebook, your data will differ from the analysis in this ReadME.
+Disclosure: The Y-finance API is a timeseries dataset, and I specified within my code to grab data from one year ago to now(5/5/2025) so depending on when you clone and run the notebook, your data will differ from the analysis in this ReadME.
 
 ## 📋 Table of Contents
 
