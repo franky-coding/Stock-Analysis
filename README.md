@@ -24,6 +24,14 @@ Disclosure: The Y-finance API is a timeseries dataset, and I specified within my
 
 ### Summary
 
-The goal of this project is to clean, transform and visualize data on a selection of very large technology firms in which afterwards, I will analyze the visuals and draw important insights. Pandas and Numpys will be used to clean and transform data while Matplotlib and Seaborn will be used to make graphs and heatmaps.
+The goal of this project is to clean, transform and visualize data on a selection of very large technology firms in which afterwards, I will analyze the visuals and draw important insights. Pandas and Numpys will be used to clean and transform data while Matplotlib and Seaborn will be used to make graphs and heatmaps. I will use a loop to iterate through each stocks dataframe from YFinance API and store each stocks data in a python dictionary.
 
-Based off of my current working knowledge of the market, I went into this project predicting that the trend between AMD and Nvidia as well as correlation will be negative due to them being direct competitors in the chip market. I also assume Tesla will be extremely volatile and differ trend-wise from the rest of the stocks. Microsoft, Apple, and Google will follow a similar trend being the 'grandfathered' tech giants of our generation.
+### Goal
+
+Based off of my current working knowledge of the market, I went into this project predicting that the trend and correlation between AMD and Nvidia will be negative due to them being direct competitors in the chip market. I also assume Tesla will be extremely volatile and differ trend-wise from the rest of the stocks. Microsoft, Apple, and Google will follow a similar trend being the 'grandfathered' tech giants of our generation.
+
+## Closing Prices
+
+I found a two ways to graph the closing price, one being a subplot with each stock having their own graph and two being one single graph with all seven stocks plotted on it. I chose option two because it clearly displays the trend of each stock and how it compares to its counterparts.
+
+From looking at the graph of all the closing prices from now to a year ago, it seems that all the stocks followed a similar trend over the past year besides Tesla. Tesla had a MAJOR spike from November of 2024 going into 2025, most likely due to Musk's involvement with Trumps election and Trump winning that election. Teslas price movements seem to be a lot more drastic compared to the other stocks as well but we can also get a better picture of that through comparing PCT changes later.
