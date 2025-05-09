@@ -15,6 +15,7 @@ Disclosure: The Y-finance API is a timeseries dataset, and I specified within my
 ## 📋 Table of Contents
 
 - [Summary & Hypotheses](#introduction)
+- [Closing Price Analysis](#closing-prices)
 
 ## Introduction
 
