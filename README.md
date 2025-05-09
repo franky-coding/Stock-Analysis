@@ -1,6 +1,6 @@
 # Stock-Analysis of Major Technology Stocks
 
-## Instructions
+## Instructions (To see code)
 
 - open analysis.ipynb to take a quick look directly on github or [click here](https://github.com/franky-coding/Stock-Analysis/blob/main/analysis.ipynb)
 
