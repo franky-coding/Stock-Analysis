@@ -2,9 +2,7 @@
 
 ## Instructions
 
-To try running the notebook or seeing the code yourself:
-
-- open analysis.ipynb to take a quick look directly on github
+- open analysis.ipynb to take a quick look directly on github or [click here](https://github.com/franky-coding/Stock-Analysis/blob/main/analysis.ipynb)
 
 or
 
