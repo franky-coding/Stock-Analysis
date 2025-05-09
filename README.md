@@ -25,7 +25,7 @@ Disclosure: The Y-finance API is a timeseries dataset, and I specified within my
 
 ### Summary
 
-The goal of this project is to clean, transform and visualize data on a selection of very large technology firms in which afterwards, I will analyze the visuals and draw important insights. Pandas and Numpys will be used to clean and transform data while Matplotlib and Seaborn will be used to make graphs and heatmaps. I will use a loop to iterate through each stocks dataframe from YFinance API and store each stocks data in a python dictionary.
+The goal of this project is to clean, transform and visualize data on a selection of very large technology firms in which afterwards, I will analyze the visuals and draw important insights. Pandas and Numpys will be used to clean and transform data while Matplotlib and Seaborn will be used to make graphs and heatmaps. I will use a loop to iterate through each stock's dataframe from the YFinance API and store each of the stock's data in a python dictionary named 'stock_data'.
 
 ### Goal
 
