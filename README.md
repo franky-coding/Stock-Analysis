@@ -31,7 +31,7 @@ Based off of my current working knowledge of the market, I went into this projec
 
 ## Closing Prices
 
-![Context Map](images\Closing prices for stock analysis project.png)
+![Closing Prices](images/Closing%20prices%20for%20stock%20analysis%20project.png)
 
 I found a two ways to graph the closing price, one being a subplot with each stock having their own graph and two being one single graph with all seven stocks plotted on it. I chose option two because it clearly displays the trend of each stock and how it compares to its counterparts.
 
