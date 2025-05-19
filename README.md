@@ -41,10 +41,10 @@ From looking at the graph of all the closing prices from now to a year ago, it s
 
 ## Volume Visualization
 
-<img src="images/Volume for stock analysis project.png" alt="Closing Prices" width="1200" height='400'>
+<img src="images/Volume for stock analysis project.png" alt="Closing Prices" width="1000" height='800'>
 
 Looking at the plot of volumes for all seven stocks, we can judge which stock has the most volatility through how many fluctuations or "spikes" we see. Volume is essentially the amount of buy/sell orders the stock has on a certain day. Judging based off just looks, Tesla seems to be the most volatile stock because it shows the most amount of spikes that are drastic. Additional evidence that backs this hypothesis is the fact that Tesla is known to be a volatile stock that doesn't follow common market trends.
 
 ## Moving Averages
 
-<img src="images/Moving Averages for stock analysis project.png" alt="Closing Prices" width="1200" height='400'>
+<img src="images/Moving Averages for stock analysis project.png" alt="Closing Prices" width="1000" height='800'>
