@@ -2,13 +2,13 @@
 
 ## Instructions (To see code)
 
-- open analysis.ipynb to take a quick look directly on github or [click here](https://github.com/franky-coding/Stock-Analysis/blob/main/analysis.ipynb)
+- [click here](https://github.com/franky-coding/Stock-Analysis/blob/main/analysis.ipynb) or open analysis.ipynb
 
 or
 
 - git clone the repository and run the analysis in your local code editor
 
-Disclosure: The Y-finance API is a timeseries dataset, and I specified within my code to grab data from one year ago to now(5/5/2025) so depending on when you clone and run the notebook, your data will differ from the analysis in this ReadME.
+Disclosure: The Y-finance API is a timeseries dataset, and I specified within my code to grab data from one year ago to now(5/5/2025), thus depending on when you clone and run the notebook, your data will differ from the analysis in this ReadME.
 
 ## 📋 Table of Contents
 
@@ -48,3 +48,5 @@ Looking at the plot of volumes for all seven stocks, we can judge which stock ha
 ## Moving Averages
 
 <img src="images/Moving Averages for stock analysis project.png" alt="Closing Prices" width="1000" height='800'>
+
+From looking at the moving averages of these stocks, we can evidently see that Microsoft, Google, Amazon, and Nvidia all follow a similar trend when it comes to the 45 day moving average. The reason I chose to look at the 45 day average is because the higher amount of days means the data points are more "averaged out". Through the moving average, we are able to see the average price over an 'x' amount of days which can show us, more accurately, the trend/direction of a stock. This will not give us predictions on where the stock goes, but we are able to see which companies move similarly while which don't. Nvidia moving like those other three tech stocks tells us that Nvidia has become one of the tech giants, as seen in their insane growth in market cap. AMD has been going down gradually and not following any trend due to Nvidias growth and its inability to catch up to Nvidias chip and AI technology. This is evident because although AMD is still making earnings and profit, they are still slowly tanking as seen in the MA's.
