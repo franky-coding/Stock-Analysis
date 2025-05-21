@@ -16,6 +16,7 @@ Disclosure: The Y-finance API is a timeseries dataset, and I specified within my
 - [Closing Price Analysis](#closing-prices)
 - [Volume Visualization](#volume-visualization)
 - [Moving Averages - 10, 20, 45 Day](#moving-averages)
+- [Percentage Change](#percentage-change)
 
 ## Introduction
 
@@ -50,3 +51,7 @@ Looking at the plot of volumes for all seven stocks, we can judge which stock ha
 <img src="images/Moving Averages for stock analysis project.png" alt="Closing Prices" width="1000" height='800'>
 
 From looking at the moving averages of these stocks, we can evidently see that Microsoft, Google, Amazon, and Nvidia all follow a similar trend when it comes to the 45 day moving average. The reason I chose to look at the 45 day average is because the higher amount of days means the data points are more "averaged out". Through the moving average, we are able to see the average price over an 'x' amount of days which can show us, more accurately, the trend/direction of a stock. This will not give us predictions on where the stock goes, but we are able to see which companies move similarly while which don't. Nvidia moving like those other three tech stocks tells us that Nvidia has become one of the tech giants, as seen in their insane growth in market cap. AMD has been going down gradually and not following any trend due to Nvidias growth and its inability to catch up to Nvidias chip and AI technology. This is evident because although AMD is still making earnings and profit, they are still slowly tanking as seen in the MA's.
+
+## Percentage Change
+
+<img src="images/pct change for stock analysis project.png" alt="Closing Prices" width="1000" height='800'>
