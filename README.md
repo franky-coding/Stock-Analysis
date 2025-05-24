@@ -80,7 +80,7 @@ From merely looking at the plot, we can safely assume that our choice of technol
 
 ## Correlation of Daily Percent Changes
 
-<img src="images/correlation heatmap for stock analysis project.png" alt="Linear Relationships" width="800" height='700'>
+<img src="images/correlation heatmap for stock analysis project.png" alt="Linear Relationships" width="500" height='400'>
 
 - ### Insights:
 From utilizing seaborn and a heatmap to calculate the correlation instead of visually looking at it in the previous plot, we are able to prove our hypotheses correct! Amazon and Microsoft do have the largest correlation. According to statistics, a correlation of over 0.7 is considered high while a correlation between 0.3 and 0.7 is considered moderate. We can then assume that most technology stocks are moderately correlated, and in this case, MSFT & AMZN are strongly correlated. There are a multitude of other factors but we can safely assume that we should not invest a high amount of capital in both MSFT and AMZN due to their correlation, we need to hedge our portfolio so that if AMZN or MSFT price drops, we have another stock that moves in the opposite direction.
