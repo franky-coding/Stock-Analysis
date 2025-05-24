@@ -45,7 +45,7 @@ From looking at the graph of all the closing prices from now to a year ago, it s
 
 ## Volume Visualization
 
-<img src="images/Volume for stock analysis project.png" alt="Volume" width="1000" height='800'>
+<img src="images/Volume for stock analysis project.png" alt="Volume" width="800" height='700'>
 
 - Insights:
 Looking at the plot of volumes for all seven stocks, we can judge which stock has the most volatility through how many fluctuations or "spikes" we see. Volume is essentially the amount of buy/sell orders the stock has on a certain day. Judging based off just looks, Tesla seems to be the most volatile stock because it shows the most amount of spikes that are drastic. Additional evidence that backs this hypothesis is the fact that Tesla is known to be a volatile stock that doesn't follow common market trends.
@@ -69,9 +69,9 @@ Through the plot, we can draw insights through understanding that, the more fluc
 
 ## Linear Relationships between Daily Pct Changes
 
-<img src="images/correlation for stock analysis project.png" alt="Linear Relationships" width="1000" height='800'>
+<img src="images/correlation for stock analysis project.png" alt="Linear Relationships" width="800" height='700'>
 
-- Process:
+- # Process:
 In order to cleanly plot the linear relationship between the percentage changes of each stock, we should first create a single dataframe that contains just the percentage changes for every company. This would allow us to simply use seaborn to plot that entire dataframe in multiple ways, saving us time and time complexity in the long-run if we were to be reusing the daily change information.
 
-- Insights:
+- # Insights:
