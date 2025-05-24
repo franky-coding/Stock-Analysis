@@ -37,41 +37,41 @@ Based off of my current working knowledge of the market, I went into this projec
 
 <img src="images/Closing prices for stock analysis project.png" alt="Closing Prices" width="1200" height='400'>
 
-- Thought Process:
+### Thought Process:
 I found a two ways to graph the closing price, one being a subplot with each stock having their own graph and two being one single graph with all seven stocks plotted on it. I chose option two because it clearly displays the trend of each stock and how it compares to its counterparts.
 
-- Insights:
+### Insights:
 From looking at the graph of all the closing prices from now to a year ago, it seems that all the stocks followed a similar trend over the past year besides Tesla. Tesla had a MAJOR spike from November of 2024 going into 2025, most likely due to Musk's involvement with Trumps election and Trump winning that election. Teslas price movements seem to be a lot more drastic compared to the other stocks as well but we can also get a better picture of that through comparing PCT changes later.
 
 ## Volume Visualization
 
 <img src="images/Volume for stock analysis project.png" alt="Volume" width="800" height='700'>
 
-- Insights:
+### Insights:
 Looking at the plot of volumes for all seven stocks, we can judge which stock has the most volatility through how many fluctuations or "spikes" we see. Volume is essentially the amount of buy/sell orders the stock has on a certain day. Judging based off just looks, Tesla seems to be the most volatile stock because it shows the most amount of spikes that are drastic. Additional evidence that backs this hypothesis is the fact that Tesla is known to be a volatile stock that doesn't follow common market trends.
 
 ## Moving Averages
 
 <img src="images/Moving Averages for stock analysis project.png" alt="Moving Avgs" width="1000" height='800'>
 
-- Insights:
+- ### Insights:
 From looking at the moving averages of these stocks, we can evidently see that Microsoft, Google, Amazon, and Nvidia all follow a similar trend when it comes to the 45 day moving average. The reason I chose to look at the 45 day average is because the higher amount of days means the data points are more "averaged out". Through the moving average, we are able to see the average price over an 'x' amount of days which can show us, more accurately, the trend/direction of a stock. This will not give us predictions on where the stock goes, but we are able to see which companies move similarly while which don't. Nvidia moving like those other three tech stocks tells us that Nvidia has become one of the tech giants, as seen in their insane growth in market cap. AMD has been going down gradually and not following any trend due to Nvidias growth and its inability to catch up to Nvidias chip and AI technology. This is evident because although AMD is still making earnings and profit, they are still slowly tanking as seen in the MA's.
 
 ## Percentage Change
 
 <img src="images/pct change for stock analysis project.png" alt="Pct Change" width="1000" height='800'>
 
-- Process:
+- ### Process:
 I looped through each stocks dataframe and created a new column within each one named 'Daily Pct Changes' where I found the daily pct changes for each stock using '.pct_change()' in python pandas.
 
-- Insights:
+- ### Insights:
 Through the plot, we can draw insights through understanding that, the more fluctuations a graph has, the more volatile that stock is. As we previously predicted from the closing prices and volatility, we can see that Tesla is evidently the most volatile stock as it has the most fluctuation for pct change in prices. This can be great for swing trading strategies that involve large and frequent price changes. On the contrary, Apple seems like the stock with the least fluctuation, hence we can hypothesize that it is a great stock to invest in as a more low-risk, long-term investment. Of course there are other metrics we need to look at but this can be a useful assumption that can be backed by other evidences.
 
 ## Linear Relationships between Daily Pct Changes
 
 <img src="images/correlation for stock analysis project.png" alt="Linear Relationships" width="800" height='700'>
 
-- # Process:
+- ### Process:
 In order to cleanly plot the linear relationship between the percentage changes of each stock, we should first create a single dataframe that contains just the percentage changes for every company. This would allow us to simply use seaborn to plot that entire dataframe in multiple ways, saving us time and time complexity in the long-run if we were to be reusing the daily change information.
 
-- # Insights:
+- ### Insights:
