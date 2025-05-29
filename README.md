@@ -86,3 +86,13 @@ From merely looking at the plot, we can safely assume that our choice of technol
 From utilizing seaborn and a heatmap to calculate the correlation instead of visually looking at it in the previous plot, we are able to prove our hypotheses correct! Amazon and Microsoft do have the largest correlation. According to statistics, a correlation of over 0.7 is considered high while a correlation between 0.3 and 0.7 is considered moderate. We can then assume that most technology stocks are moderately correlated, and in this case, MSFT & AMZN are strongly correlated. There are a multitude of other factors but we can safely assume that we should not invest a high amount of capital in both MSFT and AMZN due to their correlation, we need to hedge our portfolio so that if AMZN or MSFT price drops, we have another stock that moves in the opposite direction.
 
 Through the assumption that all tech stocks are moderately correlated, we can choose our investment strategy dependent on things like how much risk we are willing to take and whether we are investing long-term or short-term. For example, assuming 20% of our portfolio is technology stocks, we can choose to put 5/20% into a more volatile hence risky stock like tesla and the other 15/20% into stocks correlated with Apple since Apple had the least volatile percentage changes seen from out [Percentage Change](#percentage-change) graph.
+
+## Sharpe Ratio
+
+<img src="images/sharpe ratio for stock analysis project.png" alt="Linear Relationships" width="600" height='500'>
+
+- ### Technical Process:
+First, I found the number of trading days in a year and the risk free rate based off the yield of risk free treasury bonds and divided the rate by the number of trading days. This is done to normalize the data to be a daily rate since our percent changes are also based on daily changes. Then I utilized numpy to calculate the sharpe ratio and placing it into 'summary_stats'.
+
+- ### Insights:
+We can see that the best performing Asset seems to be Tesla with a sharpe closest to 1. Tesla is also the most volatile stock which means its returns are outperforming its volatility, making it a worth it investment. When it comes to Google, AMD, and Microsoft, the negative sharpe indicates that you would have been better off investing in a risk free treasury bond rather than these three stocks. This is evident in AMD's price trend, as it has been going down the entire year. Overall, technology stocks seem to have a decent sharpe ratio, which means tech stocks should be a decent add to your portfolio but should be strategically sized and hedged against since they seem to be a slightly risky investment (sharpe < 1).
