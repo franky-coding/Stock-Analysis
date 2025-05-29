@@ -89,7 +89,7 @@ Through the assumption that all tech stocks are moderately correlated, we can ch
 
 ## Sharpe Ratio
 
-<img src="images/sharpe ratio for stock analysis project.png" alt="Linear Relationships" width="800" height='400'>
+<img src="images/sharpe ratio for stock analysis project.png" alt="Linear Relationships" width="900" height='400'>
 
 - ### Technical Process:
 First, I found the number of trading days in a year and the risk free rate based off the yield of risk free treasury bonds and divided the rate by the number of trading days. This is done to normalize the data to be a daily rate since our percent changes are also based on daily changes. Then I utilized numpy to calculate the sharpe ratio and placing it into 'summary_stats'.
