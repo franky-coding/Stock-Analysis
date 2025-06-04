@@ -19,6 +19,7 @@ Disclosure: The Y-finance API is a timeseries dataset, and I specified within my
 - [Percentage Change](#percentage-change)
 - [Linear Relationships between Daily Percentage Changes](#Linear-Relationships-between-Daily-Percentage-Changes)
 - [Correlation of Daily Percent Changes](#Correlation-of-Daily-Percent-Changes)
+- [Sharpe Ratio](#sharpe-ratio)
 
 ## Introduction
 
